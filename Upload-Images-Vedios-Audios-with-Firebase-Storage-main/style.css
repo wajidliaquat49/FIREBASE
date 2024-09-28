@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    width: 98.7vw;
+    height: 11vh;
+    background-color: #42a5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightcyan;
+}
+
+#imagecolor {
+    color: yellow;
+}
+
+#vediocolor {
+    color: red;
+}
+
+#audiocolor {
+    color: black;
+}
+
+.bg {
+    width: 98.7vw;
+    height: 100vh;
+    background-color: #2196f3;
+}
+
+.fileparent {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+#formFileLg {
+    background-color: #2196f3;
+    color: white;
+    width: 400px;
+}
+
+.userdataparent {
+    display: flex;
+    justify-content: center;
+}
+
+.userdata {
+    width: 398px;
+    height: 470px;
+    border: 1px solid white;
+    margin-top: 8px;
+}
+
+.parentbtn {
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    width: 398px;
+    height: 40px;
+    background-color: #42a5f5;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    margin-top: 6px;
+}
+
+@media (min-width: 320px) and (max-width: 1071px) {
+    .bg {
+        width: 98.7vw;
+        height: 105vh;
+        background-color: #2196f3;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .bg {
+        width: 110vw;
+        height: 105vh;
+        background-color: #2196f3;
+    }
+
+    .heading {
+        width: 110vw;
+    }
+}
+
+@media (min-width: 56px) and (max-width: 320px) {
+    .bg {
+        width: 130vw;
+        height: 105vh;
+        background-color: #2196f3;
+    }
+
+    .heading {
+        width: 130vw;
+    }
+}

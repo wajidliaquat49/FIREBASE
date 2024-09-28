@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up {
+    color: green;
+    font-family: fantasy;
+}
+
+.sign-in {
+    color: orange;
+    font-family: fantasy;
+
+}
+
+.sign-out {
+    color: red;
+    font-family: fantasy;
+
+}
+
+span {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-image {
+    /* background-color: rgb(102, 102, 179); */
+    background-color: powderblue;
+    width: 100vw;
+    height: 130vh;
+}
+
+.heading {
+    background-color: lightblue;
+    width: 100%;
+    height: 80px;
+    /* position: sticky;
+    top: 0px; */
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+}
+
+
+/* =================Sign In================= */
+
+.container {
+    width: 100vw;
+    height: 46vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+.sign_up {
+    width: 70%;
+    height: 100%;
+    background-color: lightblue;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(111, 206, 238);
+
+}
+
+.sign_up_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 57px;
+
+}
+
+#sign_up_email {
+    width: 270px;
+    height: 40px;
+    background-color: powderblue;
+    outline: none;
+    border: 1px solid rgb(111, 206, 238);
+    padding-left: 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+#sign_up_password {
+    width: 270px;
+    height: 40px;
+    background-color: powderblue;
+    outline: none;
+    border: 1px solid rgb(111, 206, 238);
+    padding-left: 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+#sign_up_btn {
+    width: 277px;
+    height: 40px;
+    background-color: blue;
+    outline: none;
+    border: 1px solid blue;
+    padding-left: 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#sign_up_btn:hover {
+    background-color: green;
+    border: 1px solid green;
+
+
+}
+
+
+
+/* =================Sign In================= */
+
+
+.sign_in {
+    width: 70%;
+    height: 100%;
+    background-color: lightblue;
+    margin-top: 80px;
+    border-radius: 10px;
+    border: 1px solid rgb(111, 206, 238);
+
+}
+
+.sign_in_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 57px;
+
+}
+
+#sign_in_email {
+    width: 270px;
+    height: 40px;
+    background-color: powderblue;
+    outline: none;
+    border: 1px solid rgb(111, 206, 238);
+    padding-left: 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+#sign_in_password {
+    width: 270px;
+    height: 40px;
+    background-color: powderblue;
+    outline: none;
+    border: 1px solid rgb(111, 206, 238);
+    padding-left: 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+#sign_in_btn {
+    width: 277px;
+    height: 40px;
+    background-color: blue;
+    outline: none;
+    border: 1px solid blue;
+    padding-left: 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#sign_in_btn:hover {
+    background-color: orange;
+    border: 1px solid orange;
+    color: black;
+
+}
+
+
+/* ================ Log Out =================== */
+
+
+.log_out {
+    width: 71%;
+    height: 40%;
+    background-color: lightblue;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    border: 1px solid rgb(111, 206, 238);
+
+
+}
+
+#log_out_btn {
+    width: 277px;
+    height: 40px;
+    background-color: blue;
+    outline: none;
+    border: 1px solid blue;
+    padding-left: 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 330px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.log_out_container {
+    margin-top: 40px;
+}
+
+#log_out_btn:hover {
+    background-color: red;
+    border: 1px solid red;
+}

@@ -1,0 +1,2167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.size {
+    width: 100%;
+    height: 60px;
+}
+
+.theme {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+.text:hover {
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.main:hover {
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+
+
+.logo:hover {
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.cart:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.deliver {
+    color: white;
+    font-size: small;
+}
+
+.pak {
+    color: white;
+    font-weight: bold;
+    font-size: small;
+}
+
+.rtn .Returns {
+    color: white;
+    font-size: small;
+
+}
+
+.rtn .Orders {
+    color: white;
+    font-weight: bold;
+    font-size: small;
+
+
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    border: 1px solid orange;
+
+}
+
+
+.search input {
+    width: 500px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+
+
+}
+
+.icon {
+    width: 25px;
+    height: 30px;
+    background-color: orange;
+}
+
+.icon i {
+    padding-left: 4px;
+    padding-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+.cart {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-size: small;
+
+}
+
+
+
+
+.nav2 {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(74, 71, 71);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.bar span {
+    color: white;
+    font-weight: bold;
+}
+
+
+.rtn:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.bar span:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.bar-content #today:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.bar-content #Service:hover {
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.bar-content #Registry:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.bar-content #Gift:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.bar-content #Sell:hover {
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.bar-content span {
+    color: white;
+    margin-left: 20px;
+    font-size: small;
+
+}
+
+
+.Shop span {
+    color: white;
+    font-weight: bold;
+    margin-left: 540px;
+    word-spacing: 10px;
+    font-size: small;
+}
+
+.Shop span:hover {
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+
+
+
+
+/* line1 */
+
+.bg-image img {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+.line-1 {
+    display: flex;
+    gap: 50px;
+    margin-left: 40px;
+    position: absolute;
+    top: 290px;
+
+}
+
+
+.box1 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    font-weight: bold;
+
+}
+
+.box1 img {
+    width: 212px;
+    height: 240px;
+    position: relative;
+    top: 0px;
+    left: 17px;
+
+}
+
+.text-box1 p {
+    padding-top: 5px;
+    padding-left: 35px;
+}
+
+
+.box2 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+}
+
+.box2 img {
+    width: 212px;
+    height: 240px;
+    position: relative;
+    top: 0px;
+    left: 17px;
+
+}
+
+.text-box2 p {
+    padding-top: 5px;
+    padding-left: 75px;
+    font-weight: bold;
+}
+
+
+
+.box3 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.box3 img {
+    width: 120px;
+    height: 70px;
+}
+
+.text-box3 p {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.box3 .Headsets {
+    position: absolute;
+    top: 160px;
+    left: 40px;
+    font-size: small;
+
+}
+
+.box3 .Keyboards {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    font-size: small;
+
+}
+
+.box3 .Computer {
+    position: absolute;
+    top: 245px;
+    left: 30px;
+    font-size: small;
+
+}
+
+.box3 .Chairs {
+    position: absolute;
+    top: 260px;
+    left: 160px;
+    font-size: small;
+
+}
+
+
+
+
+
+.box4 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 15px;
+    padding-left: 7px;
+    padding-top: 5px;
+
+}
+
+.box4 img {
+    width: 110px;
+    height: 95px;
+
+}
+
+
+.text-box4 {
+    padding-left: 40px;
+    font-weight: bold;
+
+}
+
+
+
+
+/* line2 */
+
+
+.bg-line2 {
+    background-color: rgb(210, 208, 208);
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+
+.line-2 {
+    display: flex;
+    gap: 50px;
+    margin-left: 40px;
+    position: absolute;
+    top: 50px;
+}
+
+
+
+
+.L2-box1 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    font-weight: bold;
+
+}
+
+
+.L2-box1 img {
+    width: 212px;
+    height: 230px;
+    position: relative;
+    top: 10px;
+    left: 17px;
+
+}
+
+.L2-text-box1 p {
+    padding-top: 10px;
+    padding-left: 60px;
+}
+
+.L2-box2 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+
+
+
+}
+
+.L2-box2 img {
+    width: 110px;
+    height: 100px;
+
+
+}
+
+
+
+.L2-text-box2 p {
+    padding-top: 15px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+.L2-box3 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    font-weight: bold;
+
+}
+
+
+.L2-box3 img {
+    width: 220px;
+    height: 240px;
+    position: relative;
+    top: 0px;
+    left: 17px;
+
+}
+
+.L2-text-box3 p {
+    padding-top: 5px;
+    padding-left: 65px;
+}
+
+
+
+.L2-box4 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    font-weight: bold;
+
+}
+
+
+.L2-box4 img {
+    width: 220px;
+    height: 240px;
+    position: relative;
+    top: 0px;
+    left: 17px;
+
+}
+
+.L2-text-box4 p {
+    padding-top: 5px;
+    padding-left: 35px;
+}
+
+
+
+
+
+/* line3 */
+
+
+.bg-line2 {
+    background-color: rgb(210, 208, 208);
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+
+.line-3 {
+    display: flex;
+    gap: 50px;
+    margin-left: 40px;
+    position: absolute;
+    /* top: 10px;   */
+
+}
+
+
+
+
+.L3-box1 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    font-weight: bold;
+
+}
+
+
+.L3-box1 img {
+    width: 212px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 17px;
+
+}
+
+
+.L3-text-box1 p {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+
+
+.L3-box2 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+
+
+
+}
+
+.L3-box2 img {
+    width: 110px;
+    height: 90px;
+
+
+}
+
+
+
+.L3-text-box2 p {
+    padding-top: 15px;
+    font-weight: bold;
+
+}
+
+
+
+.L3-box3 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    font-weight: bold;
+
+}
+
+
+.L3-box3 img {
+    width: 212px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 17px;
+
+}
+
+
+.L3-text-box3 p {
+    padding-top: 10px;
+    padding-left: 17px;
+}
+
+
+.L3-box4 {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    font-weight: bold;
+
+}
+
+
+.L3-box4 img {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: 10px;
+    left: 17px;
+
+}
+
+.L3-text-box4 p {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+
+
+/* line4 */
+
+.bg-line4 {
+    width: 100%;
+    height: 850px;
+    background-color: rgb(210, 208, 208);
+}
+
+
+.line-4 {
+    width: 85%;
+    height: 200px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    position: absolute;
+    top: 350px;
+    margin-left: 40px;
+
+}
+
+.line-4-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+
+}
+
+.line-4 .img-1 {
+
+    width: 110px;
+    height: 150px;
+}
+
+.line-4 .img-2 {
+    width: 50px;
+    height: 150px;
+}
+
+.line-4 .img-3 {
+    width: 110px;
+    height: 150px;
+}
+
+.line-4 .img-4 {
+    width: 70px;
+    height: 170px;
+}
+
+.line-4 .img-5 {
+    width: 80px;
+    height: 150px;
+}
+
+.line-4 .img-6 {
+    width: 80px;
+    height: 150px;
+}
+
+
+
+/* line-5 */
+
+.line-5 {
+    width: 85%;
+    height: 200px;
+    background-color: white;
+    border: 1px solid rgb(231, 225, 225);
+    position: absolute;
+    top: 600px;
+    margin-left: 40px;
+
+
+}
+
+.line-5-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.l-5-img-1 {
+    width: 220px;
+    height: 100px;
+
+}
+
+.l-5-img-2 {
+    width: 220px;
+    height: 140px;
+}
+
+.l-5-img-3 {
+    width: 100px;
+    height: 140px;
+
+}
+
+.l-5-img-4 {
+    width: 250px;
+    height: 150px;
+}
+
+.l-5-img-5 {
+    width: 130px;
+    height: 130px;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(52, 52, 52);
+
+}
+
+.sign-in {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign-in div p {
+    font-family: normal;
+    padding: 0px;
+    line-height: 2px;
+
+
+}
+
+.sign-in div button {
+    width: 230px;
+    height: 25px;
+    background-color: rgb(249, 204, 40);
+    border-radius: 4px;
+    border: 1px solid orange;
+    font-size: small;
+    font-weight: bold;
+}
+
+.start-here {
+    text-align: center;
+
+}
+
+.start-here span {
+    font-size: small;
+
+}
+
+.start-here a {
+    text-decoration: none;
+}
+
+
+.back-to-top {
+    width: 100%;
+    height: 45px;
+    background-color: rgb(76, 76, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-to-top p {
+    font-family: normal;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    padding-top: 14px;
+}
+
+
+.back-to-top a {
+    text-decoration: none;
+}
+
+
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width:1024px) {
+    .footer-text {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        justify-content: space-evenly;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:425px) {
+    .footer-text {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        justify-content: space-evenly;
+    }
+
+
+    .footer-box2 {
+        display: none;
+    }
+
+
+    .footer-box4 {
+        display: none;
+    }
+
+    .footer {
+        width: 100%;
+        height: 500px;
+        background-color: rgb(52, 52, 52);
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-box1 {
+    color: white;
+    font-size: small;
+    /* font-weight: bold; */
+    padding-top: 70px;
+}
+
+
+.footer-box2 {
+    color: white;
+    font-size: small;
+    /* font-weight: bold; */
+    padding-top: 70px;
+}
+
+.footer-box3 {
+    color: white;
+    font-size: small;
+    /* font-weight: bold; */
+    padding-top: 70px;
+}
+
+
+.footer-box4 {
+    color: white;
+    font-size: small;
+    /* font-weight: bold; */
+    padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1024px) {
+
+
+    .line-5-images {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+
+    }
+
+    .l-5-img-5 {
+        display: none;
+    }
+
+    .line-5 {
+        width: 89.5%;
+    }
+
+
+
+
+
+
+    .bg-image img {
+        width: 100%;
+        height: 70%;
+
+    }
+
+
+    .line-1 {
+        display: flex;
+        gap: 80px;
+        margin-left: 40px;
+        position: absolute;
+        top: 240px;
+    }
+
+
+    .box1 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        font-weight: bold;
+
+    }
+
+    .box1 img {
+        width: 212px;
+        height: 240px;
+        position: relative;
+        top: 0px;
+        left: 17px;
+
+    }
+
+    .text-box1 p {
+        padding-top: 5px;
+        padding-left: 35px;
+    }
+
+
+    .box2 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+    }
+
+    .box2 img {
+        width: 212px;
+        height: 240px;
+        position: relative;
+        top: 0px;
+        left: 17px;
+
+    }
+
+    .text-box2 p {
+        padding-top: 5px;
+        padding-left: 75px;
+        font-weight: bold;
+    }
+
+
+
+    .box3 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+
+    .box3 img {
+        width: 120px;
+        height: 70px;
+    }
+
+    .text-box3 p {
+        padding-top: 10px;
+        font-weight: bold;
+    }
+
+    .box3 .Headsets {
+        position: absolute;
+        top: 160px;
+        left: 40px;
+        font-size: small;
+
+    }
+
+    .box3 .Keyboards {
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        font-size: small;
+
+    }
+
+    .box3 .Computer {
+        position: absolute;
+        top: 245px;
+        left: 30px;
+        font-size: small;
+
+    }
+
+    .box3 .Chairs {
+        position: absolute;
+        top: 260px;
+        left: 160px;
+        font-size: small;
+
+    }
+
+    .box4 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 15px;
+        padding-left: 7px;
+        padding-top: 5px;
+        display: none;
+
+    }
+
+    .box4 img {
+        width: 110px;
+        height: 95px;
+
+    }
+
+
+    .text-box4 {
+        padding-left: 40px;
+        font-weight: bold;
+
+    }
+
+    /* line2 */
+
+    .line-2 {
+        display: flex;
+        gap: 80px;
+        margin-left: 40px;
+        position: absolute;
+        top: 50px;
+    }
+
+    .L2-box1 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        font-weight: bold;
+
+
+    }
+
+
+    .L2-box1 img {
+        width: 212px;
+        height: 230px;
+        position: relative;
+        top: 10px;
+        left: 17px;
+
+    }
+
+    .L2-text-box1 p {
+        padding-top: 10px;
+        padding-left: 60px;
+    }
+
+    .L2-box2 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+
+
+
+
+    }
+
+    .L2-box2 img {
+        width: 110px;
+        height: 100px;
+
+
+    }
+
+
+
+    .L2-text-box2 p {
+        padding-top: 15px;
+        font-weight: bold;
+
+    }
+
+
+
+
+
+
+    .L2-box3 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        font-weight: bold;
+
+    }
+
+
+    .L2-box3 img {
+        width: 220px;
+        height: 240px;
+        position: relative;
+        top: 0px;
+        left: 17px;
+
+    }
+
+    .L2-text-box3 p {
+        padding-top: 5px;
+        padding-left: 65px;
+    }
+
+
+
+    .L2-box4 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        font-weight: bold;
+        display: none;
+
+    }
+
+
+    .L2-box4 img {
+        width: 220px;
+        height: 240px;
+        position: relative;
+        top: 0px;
+        left: 17px;
+
+    }
+
+    .L2-text-box4 p {
+        padding-top: 5px;
+        padding-left: 35px;
+    }
+
+    /* line3 */
+
+    .bg-line2 {
+        background-color: rgb(210, 208, 208);
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+
+    .line-3 {
+        display: flex;
+        gap: 80px;
+        margin-left: 40px;
+        position: absolute;
+        /* top: 10px;   */
+
+    }
+
+
+
+
+    .L3-box1 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        font-weight: bold;
+
+    }
+
+
+    .L3-box1 img {
+        width: 212px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+        left: 17px;
+
+    }
+
+
+    .L3-text-box1 p {
+        padding-top: 10px;
+        padding-left: 25px;
+    }
+
+
+
+    .L3-box2 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+
+
+
+
+    }
+
+    .L3-box2 img {
+        width: 110px;
+        height: 90px;
+
+
+    }
+
+
+
+    .L3-text-box2 p {
+        padding-top: 15px;
+        font-weight: bold;
+
+    }
+
+
+
+    .L3-box3 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        font-weight: bold;
+
+    }
+
+
+    .L3-box3 img {
+        width: 212px;
+        height: 200px;
+        position: relative;
+        top: 10px;
+        left: 17px;
+
+    }
+
+
+    .L3-text-box3 p {
+        padding-top: 10px;
+        padding-left: 17px;
+    }
+
+
+    .L3-box4 {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        font-weight: bold;
+        display: none;
+
+    }
+
+
+    .L3-box4 img {
+        width: 220px;
+        height: 220px;
+        position: relative;
+        top: 10px;
+        left: 17px;
+
+    }
+
+    .L3-text-box4 p {
+        padding-top: 10px;
+        padding-left: 25px;
+    }
+
+
+
+    /* line4 */
+
+    .line-4 {
+        width: 89%;
+        height: 200px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        position: absolute;
+        top: 350px;
+        margin-left: 40px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .theme {
+        width: 100%;
+        height: 80px;
+        display: flex;
+
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        border: 1px solid orange;
+
+    }
+
+
+    .search input {
+        width: 300px;
+        height: 30px;
+        padding-left: 10px;
+        outline: none;
+
+
+    }
+
+    .icon {
+        width: 25px;
+        height: 30px;
+        background-color: orange;
+    }
+
+    .icon i {
+        padding-left: 4px;
+        padding-top: 8px;
+    }
+
+
+
+
+    .deliver {
+        color: white;
+        font-size: 8px;
+        line-height: 0px;
+
+    }
+
+    .pak {
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 0px;
+    }
+
+    .rtn .Returns {
+        color: white;
+        font-size: 8px;
+        line-height: 0px;
+
+
+    }
+
+    .rtn .Orders {
+        color: white;
+        font-size: 10px;
+        line-height: 0px;
+
+
+
+    }
+
+    .rtn:hover {
+        border: 1px solid white;
+    }
+
+
+
+
+    .nav2 {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(74, 71, 71);
+        display: flex;
+        align-items: center;
+        /* gap:20px; */
+        padding-left: 20px;
+    }
+
+    .bar span {
+        color: white;
+        font-weight: bold;
+
+
+    }
+
+    .bar span:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #today:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #Service:hover {
+        border: 1px solid white;
+
+    }
+
+    .bar-content #Registry:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #Gift:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #Sell:hover {
+        border: 1px solid white;
+
+    }
+
+    .bar-content span {
+        color: white;
+        margin-left: 6px;
+
+    }
+
+
+    .Shop span {
+        color: white;
+        font-weight: bold;
+        padding-left: 6px;
+        word-spacing: 5px;
+        margin-left: 400px;
+    }
+
+    .Shop span:hover {
+        border: 1px solid white;
+    }
+
+
+}
+
+@media only screen and (max-width:768px) {
+
+
+    .line-5 {
+        width: 91%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .bg-image img {
+        width: 130%;
+        height: 500px;
+
+    }
+
+    .bg-line2 {
+        background-color: rgb(210, 208, 208);
+        width: 130%;
+        height: 400px;
+        position: relative;
+    }
+
+
+
+    .line-4 {
+        width: 91%;
+        height: 200px;
+        background-color: white;
+        border: 1px solid rgb(231, 225, 225);
+        position: absolute;
+        top: 350px;
+        margin-left: 40px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .theme {
+        width: 130%;
+        height: 60px;
+        display: flex;
+        gap: 20px;
+
+
+    }
+
+
+
+
+
+    .main {
+
+        display: flex;
+        justify-content: center;
+        border: 1px solid orange;
+
+    }
+
+
+    .search input {
+        width: 250px;
+        height: 30px;
+        padding-left: 5px;
+        outline: none;
+
+    }
+
+    .icon {
+        width: 25px;
+        height: 30px;
+        background-color: orange;
+
+    }
+
+
+
+
+
+    .deliver {
+        color: white;
+        font-size: 8px;
+
+
+
+
+    }
+
+    .pak {
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 0px;
+
+    }
+
+    .rtn .Returns {
+        color: white;
+        font-size: 8px;
+        line-height: 0px;
+
+
+    }
+
+    .rtn .Orders {
+        color: white;
+        font-size: 10px;
+        line-height: 0px;
+    }
+
+
+
+
+
+    .nav2 {
+        width: 130%;
+        height: 40px;
+        background-color: rgb(74, 71, 71);
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .bar span {
+        color: white;
+        font-weight: bold;
+
+
+    }
+
+    .bar span:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #today:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #Service:hover {
+        border: 1px solid white;
+
+    }
+
+    .bar-content #Registry:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #Gift:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #Sell:hover {
+        border: 1px solid white;
+
+    }
+
+    .bar-content span {
+        color: white;
+        margin-left: 8px;
+
+    }
+
+
+    .Shop span {
+        color: white;
+        font-weight: bold;
+        margin-left: 390px;
+        word-spacing: 10px;
+
+    }
+
+    .Shop span:hover {
+        border: 1px solid white;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:425px) {
+    .bg-line2 {
+        background-color: rgb(210, 208, 208);
+        width: 150%;
+        height: 400px;
+        position: relative;
+    }
+
+    .line-4 .img-1 {
+
+        width: 90px;
+        height: 140px;
+    }
+
+   
+
+    .line-4 .img-3 {
+        width: 90px;
+        height: 140px;
+    }
+
+
+
+    .L2-box3 {
+        display: none;
+    }
+
+
+    .L3-box3 {
+        display: none;
+    }
+
+    .box2 {
+        display: none;
+    }
+
+
+
+    .line-5 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+
+    .l-5-img-4 {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .bg-image img {
+        width: 150%;
+        height: 500px;
+
+    }
+
+
+
+    .box1 img {
+        width: 180px;
+        height: 150px;
+        position: relative;
+        top: 0px;
+        left: 17px;
+
+    }
+
+    .text-box1 p {
+        padding-top: 5px;
+        padding-left: 35px;
+    }
+
+
+ 
+
+    .box2 img {
+        width: 180px;
+        height: 150px;
+        position: relative;
+        top: 0px;
+        left: 17px;
+
+    }
+
+    .text-box2 p {
+        padding-top: 5px;
+        padding-left: 35px;
+        font-weight: bold;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .theme {
+        width: 150%;
+        height: 60px;
+        display: flex;
+
+    }
+
+    .logo {
+
+        color: rgb(250, 170, 21);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    .main {
+
+        display: flex;
+        align-items: center;
+        border: 1px solid orange;
+
+    }
+
+
+    .search input {
+        width: 100px;
+        height: 25px;
+        padding-left: 5px;
+        outline: none;
+        font-size: small;
+
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+        background-color: orange;
+
+    }
+
+
+
+
+
+    .deliver {
+        color: white;
+        font-size: 8px;
+
+
+
+
+    }
+
+    .pak {
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 0px;
+
+    }
+
+    .rtn .Returns {
+        color: white;
+        font-size: 8px;
+        line-height: 0px;
+
+
+    }
+
+    .rtn .Orders {
+        color: white;
+        font-size: 10px;
+        line-height: 0px;
+    }
+
+
+
+
+
+    .nav2 {
+        width: 150%;
+        height: 40px;
+        background-color: rgb(74, 71, 71);
+        display: flex;
+        align-items: center;
+        padding-left: 5px;
+
+    }
+
+    .bar span {
+        color: white;
+        font-weight: bold;
+        margin-left: 5px;
+        font-size: medium;
+
+
+    }
+
+    .bar span:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #today:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #Service:hover {
+        border: 1px solid white;
+
+    }
+
+    .bar-content #Registry:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #Gift:hover {
+        border: 1px solid white;
+    }
+
+    .bar-content #Sell:hover {
+        border: 1px solid white;
+
+    }
+
+    .bar-content span {
+        color: white;
+        margin-left: 6px;
+        font-size: small;
+    }
+
+
+    .Shop span {
+        color: white;
+        font-weight: bold;
+        font-size: small;
+        margin-left: 100px;
+
+
+
+    }
+
+    .Shop span:hover {
+        border: 1px solid white;
+    }
+}

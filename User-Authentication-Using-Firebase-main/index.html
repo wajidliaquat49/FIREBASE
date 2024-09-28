@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Authentication Using Firebase</title>
+</head>
+
+<body>
+
+    <div class="bg-image">
+        <div class="heading">
+            <h1><span class="sign-up">Sign Up </span>&nbsp;<span>& </span> &nbsp;<span class="sign-in">Sign In
+                </span>&nbsp;
+                <span>&</span> &nbsp;<span class="sign-out">Sign Out</span>
+            </h1>
+        </div>
+
+        <div id="signup_signin">
+
+            <div class="container">
+                <div class="sign_up">
+                    <div class="sign_up_container">
+                        <input type="email" placeholder="Enter your valid email" id="sign_up_email">
+                        <input type="password" placeholder="Enter your valid password" id="sign_up_password">
+                        <button id="sign_up_btn">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="sign_in">
+                    <div class="sign_in_container">
+                        <input type="email" placeholder="Enter your valid email" id="sign_in_email">
+                        <input type="password" placeholder="Enter your valid password" id="sign_in_password">
+                        <button id="sign_in_btn">Sign In</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id="logout_div">
+
+            <div class="container">
+                <div class="log_out">
+                    <div class="log_out_container">
+                        <h1 id="gmailtext">Here is User @gmail.com</h1>
+                        <button id="log_out_btn">Sign Out</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="app.js" type="module"></script>
+</body>
+
+</html>
